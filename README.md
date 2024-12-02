@@ -1,8 +1,8 @@
--Task Details
+# Task Details
 
 In this task, students will create a simple Rust program that demonstrates the concepts of ownership, borrowing, and references. The program will take two strings as input, concatenate them, and then print the result without violating any ownership rules.
 
--Steps
+## Steps
 
 1. Create a function called concatenate_strings that takes two string slices as arguments and returns a new String as the result of concatenating the two input strings.
 2. Inside the concatenate_strings function, create a new String called result. Use the push_str() method to append the contents of the first input string slice, followed by the second input string slice.
